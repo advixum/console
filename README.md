@@ -1,5 +1,6 @@
 # Консольное приложение-сервис для обработки POST запросов
 Задачи: https://github.com/advixum/console/blob/main/TASKS.md <br>
+Коллекция Postman: https://github.com/advixum/console/blob/main/Console.postman_collection.json <br>
 
 Данное приложение предоставляет функционал для обработки данных в виде JSON. Ниже представлен обзор точек доступа:
 
@@ -18,4 +19,4 @@
 - Пример входных данных: {"name": "Alex", "age": 21}
 - Функционал: Создаёт запись в базе данных со строкой типа '("Alex", 21)'. Возвращает JSON с id новой записи или ошибкой и её причиной.
 
-Используемые технологии: Gin (API), Redis, GORM, PostgreSQL, Logrus, Testify
+Используемые технологии: Gin (API), Redis, GORM, PostgreSQL, Logrus, Testify, Postman
